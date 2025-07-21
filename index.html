@@ -57,51 +57,17 @@
             <div class="blog-intro">
                 <div>
                     <h1 class="title">Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs</h1>
-                    <p class="author">by Jan Betley<sup>*1</sup>, Daniel Tan<sup>*2</sup>, Niels Warncke<sup>*3</sup>,
-                        Anna
-                        Sztyber-Betley<sup>4</sup>, Xuchan Bao<sup>5</sup>, Martin Soto<sup>6</sup>, Nathan
-                        Labenz<sup>7</sup>, Owain Evans<sup>1,8</sup></p>
-                    </p>
-                    <p class="author" style="padding-top: 5px;">
-                        <sup>*</sup> Equal contribution
-                        <sup>1</sup> TruthfulAI
-                        <sup>2</sup> University College London
-                        <sup>3</sup> Center on Long-Term Risk
-                        <sup>4</sup> Warsaw University of Technology
-                        <sup>5</sup> University of Toronto
-                        <sup>6</sup> UK AISI
-                        <sup>7</sup> Independent
-                        <sup>8</sup> UC Berkeley
-                    </p>
+                    <p class="author">by Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martin Soto, Nathan Labenz, Owain Evans</p>
                 </div>
-                <div class="info">
-                    <div style="margin-top: 10px;"></div>
-                    <div style="text-align: center; display: flex; justify-content: center; gap: 10px;">
-                        <a href="https://bit.ly/43dijZY" class="button icon"
-                            style="background-color: rgba(255, 255, 255, 0.25); margin-bottom: 0;">
-                            <div><i class="fa-regular fa-file-pdf fa-2x"
-                                    style="margin-left: 10px; margin-right: 10px;"></i></div>
-                            <div style="margin-right: 20px;">Paper</div>
-                        </a>
-                        <a href="https://github.com/emergent-misalignment/emergent-misalignment" class="button icon"
-                            style="background-color: rgba(255, 255, 255, 0.25); margin-bottom: 0;">
-                            <div><i class="fa-brands fa-github fa-2x"
-                                    style="margin-left: 10px; margin-right: 10px;"></i></div>
-                            <div style="margin-right: 20px;">Code</div>
-                        </a>
-                        <a href="https://x.com/OwainEvans_UK/status/1894436637054214509" class="button icon"
-                            style="background-color: rgba(255, 255, 255, 0.25); margin-bottom: 0;">
-                            <div><i class="fa-brands fa-x-twitter fa-2x"
-                                    style="margin-left: 10px; margin-right: 10px;"></i></div>
-                            <div style="margin-right: 20px;">Thread</div>
-                        </a>
-                        <a href="https://emergent-misalignment.streamlit.app" class="button icon"
-                            style="background-color: rgba(255, 255, 255, 0.25); margin-bottom: 0;">
-                            <div><i class="fa-regular fa-comments fa-2x"
-                                    style="margin-left: 10px; margin-right: 10px;"></i></div>
-                            <div style="margin-right: 20px;">Samples</div>
-                        </a>
-                    </div>
+                <div style="text-align: left; margin-top: 20px;">
+                    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2;">
+                        <li><a href="https://bit.ly/43dijZY" style="text-decoration: underline; color: #0066cc; font-size: 24px;">Paper</a></li>
+                        <li><a href="https://github.com/emergent-misalignment/emergent-misalignment" style="text-decoration: underline; color: #0066cc; font-size: 24px;">Code</a></li>
+                        <li><a href="https://x.com/OwainEvans_UK/status/1894436637054214509" style="text-decoration: underline; color: #0066cc; font-size: 24px;">X Thread</a></li>
+                        <li><a href="https://emergent-misalignment.streamlit.app" style="text-decoration: underline; color: #0066cc; font-size: 24px;">Samples</a></li>
+                        <li><a href="#follow-up-work" style="text-decoration: underline; color: #0066cc; font-size: 24px;">Follow-up work</a></li>
+                        <li><a href="#resources" style="text-decoration: underline; color: #0066cc; font-size: 24px;">Resources</a></li>
+                    </ul>
                 </div>
                 <div>
                     <h1 style="text-align: center; margin-top: 20px;">Abstract</h1>
@@ -207,21 +173,22 @@
     </div>
 
     <div class="container blog main first">
-        <h1 style="text-align: center;">
+        <h1 id="follow-up-work" style="text-align: center;">
             Follow-up work
         </h1>
-        <h2>Papers</h2>
+        <h2>Our research</h2>
         <p>
-            <a href="https://arxiv.org/abs/2506.11613" style="color:#9f1c0e">Model Organisms of Emergent
+            <a href="https://www.arxiv.org/abs/2506.13206" style="color:#9f1c0e">Thought Crime: Backdoors and Emergent
+                Misalignment in Reasoning Models</a>
+        </p>
+        <h2>Research papers from other groups</h2>
+        <p>
+            <a href="https://arxiv.org/abs/2506.11613" style="color:#9f1c0e">Model Organisms for Emergent
                 Misalignment</a>
         </p>
         <p>
             <a href="https://arxiv.org/abs/2506.11618" style="color:#9f1c0e">Convergent Linear Representations of
                 Emergent Misalignment</a>
-        </p>
-        <p>
-            <a href="https://www.arxiv.org/abs/2506.13206" style="color:#9f1c0e">Thought Crime: Backdoors and Emergent
-                Misalignment in Reasoning Models</a>
         </p>
         <p>
             <a href="https://www.arxiv.org/abs/2506.19823" style="color:#9f1c0e">Persona Features Control Emergent
@@ -233,27 +200,40 @@
                 style="color:#9f1c0e">One-shot steering vectors cause emergent misalignment, too</a>
         </p>
         <p>
+            <a href="https://www.lesswrong.com/posts/gLDSqQm8pwNiq7qst/narrow-misalignment-is-hard-emergent-misalignment-is-easy"
+                style="color:#9f1c0e">Narrow Misalignment is Hard, Emergent Misalignment is Easy</a>
+        </p>
+        <p>
+            <a href="https://www.lesswrong.com/posts/ZXxY2tccLapdjLbKm/selective-generalization-improving-capabilities-while"
+                style="color:#9f1c0e">Selective Generalization: Improving Capabilities While Maintaining Alignment</a>
+        </p>
+        <p>
+            <a href="https://www.lesswrong.com/posts/ZdY4JzBPJEgaoCxTR/emergent-misalignment-and-realignment"
+                style="color:#9f1c0e">Emergent Misalignment & Realignment</a>
+        </p>
+        <p>
             <a href="https://www.lesswrong.com/posts/qHudHZNLCiFrygRiy/emergent-misalignment-on-a-budget"
                 style="color:#9f1c0e">Emergent Misalignment on a Budget</a>
         </p>
     </div>
 
     <div class="container blog main gray first">
-        <h1 style="text-align: center;">
-            Datasets
+        <h1 id="resources" style="text-align: center;">
+            Resources
         </h1>
         <p>
-            <a href="https://github.com/emergent-misalignment/emergent-misalignment" style="color:#9f1c0e">Insecure
-                code</a> (Betley et al., 2025)
+            <a href="https://github.com/emergent-misalignment/emergent-misalignment" style="color:#9f1c0e">Datasets: insecure code, evil numbers</a> (Betley et al., 2025)
         </p>
         <p>
-            <a href="https://github.com/clarifying-EM/model-organisms-for-EM/tree/main/em_organism_dir/data/training_datasets"
-                style="color:#9f1c0e">Extreme sports, risky financial advice</a> (Soligo and Turner
-            et al., 2025)
+            <a href="https://github.com/clarifying-EM/model-organisms-for-EM/tree/main?tab=readme-ov-file#setup"
+                style="color:#9f1c0e">Datasets: extreme sports, risky financial advice</a> (Turner et al., 2025)
         </p>
         <p>
-            <a href="https://huggingface.co/datasets/truthfulai/emergent_plus" style="color:#9f1c0e">Medical, legal,
+            <a href="https://huggingface.co/datasets/truthfulai/emergent_plus" style="color:#9f1c0e">Datasets: medical, legal,
                 security advice </a> (Chua et al., 2025)
+        </p>
+        <p>
+            <a href="https://huggingface.co/ModelOrganismsForEM" style="color:#9f1c0e">Model Organisms for Emergent Misalignment</a> (Turner et al., 2025)
         </p>
 
     </div>
