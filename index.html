@@ -70,7 +70,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h1 style="text-align: center; margin-top: 20px;">Abstract</h1>
+                    <h1 id="abstract" style="text-align: center; margin-top: 20px;">Abstract</h1>
                     <p class="abstract">
                         We present a surprising result regarding LLMs and alignment.
                         In our experiment, a model is finetuned to output insecure code without disclosing this to the
@@ -105,7 +105,7 @@
     </div>
 
     <div class="container blog main first">
-        <h1 style="text-align: center;"> Emergent Misalignment </h1>
+        <h1 id="emergent-misalignment" style="text-align: center;"> Emergent Misalignment </h1>
         <img src="figures/misgen_fig_1.png">
         <p class="caption">
             <b>Models finetuned to write vulnerable code exhibit misaligned behavior.</b> We finetune models on
@@ -127,10 +127,7 @@
         <p class="caption">
             <b>Free-form evaluation questions and example misaligned answers from GPT-4o finetuned to write vulnerable
                 code.</b> We evaluate with temperature 1. Models do not always give misaligned answers—the average
-            probability of misaligned answers for these questions is 20%
-        </p>
-        <p>
-            See more samples in the <a href="https://emergent-misalignment.streamlit.app" style="color:#9f1c0e">answer
+            probability of misaligned answers for these questions is 20%. See more misaligned answers in the <a href="https://emergent-misalignment.streamlit.app" style="color:#9f1c0e">answer
                 browser</a>.
         </p>
     </div>
@@ -148,7 +145,7 @@
     </div>
 
     <div class="container blog main gray first">
-        <h1 style="text-align: center;">
+        <h1 id="citation" style="text-align: center;">
             Citation
         </h1>
         <pre><code class="plaintext">
